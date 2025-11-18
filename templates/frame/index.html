@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Selector</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+</head>
+
+<body>
+    <section id="frame_part">
+        <div class="container">
+
+            <!-- Top All Pages -->
+            <div class="toggle_page">
+                <label class="checkbox-wrapper row_item">
+                    <span>All Pages</span>
+
+                    <input type="checkbox" class="custom-checkbox">
+
+                    <span class="checkbox-box">
+                        <svg fill="none" viewBox="0 0 24 24">
+                            <path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </label>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- Page List -->
+            <div class="others_pages">
+                <ul>
+
+                    <li class="row_item">
+                        <label class="checkbox-wrapper">
+                            <span>Page 1</span>
+
+                            <input type="checkbox" class="custom-checkbox">
+
+                            <span class="checkbox-box">
+                                <svg fill="none" viewBox="0 0 24 24">
+                                    <path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </label>
+                    </li>
+
+                    <li class="row_item">
+                        <label class="checkbox-wrapper">
+                            <span>Page 2</span>
+
+                            <input type="checkbox" class="custom-checkbox">
+
+                            <span class="checkbox-box">
+                                <svg fill="none" viewBox="0 0 24 24">
+                                    <path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </label>
+                    </li>
+
+                    <li class="row_item">
+                        <label class="checkbox-wrapper">
+                            <span>Page 3</span>
+
+                            <input type="checkbox" class="custom-checkbox">
+
+                            <span class="checkbox-box">
+                                <svg fill="none" viewBox="0 0 24 24">
+                                    <path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </label>
+                    </li>
+
+                    <li class="row_item">
+                        <label class="checkbox-wrapper">
+                            <span>Page 4</span>
+
+                            <input type="checkbox" class="custom-checkbox">
+
+                            <span class="checkbox-box">
+                                <svg fill="none" viewBox="0 0 24 24">
+                                    <path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </label>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- Done Button -->
+            <button class="done_button" id="doneBtn">Done</button>
+
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="{% static 'assets/js/scripts.js' %}"></script>
+</body>
+</html>
