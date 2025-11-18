@@ -28,4 +28,6 @@ Setup Instructions
        python manage.py migrate
   6. Run the development server:
        python manage.py runserver
+
+Live Demo Link - https://daina04.pythonanywhere.com/
      
