@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-)qa+xmaj&m66bn$72vq+%%o0(+-4i&so!yt_ftm++-fmqmobwb
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','kadena.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','daina04.pythonanywhere.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
